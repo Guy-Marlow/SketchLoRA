@@ -1,0 +1,16 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.5.1+cu124
+torchvision==0.20.1+cu124
+timm==0.6.7
+numpy==1.26.4; sys_platform != "win32"
+numpy==2.2.6; sys_platform == "win32"  # avoids a Windows int32-default crash in cross_entropy
+scipy==1.14.1
+tqdm==4.66.5
+Pillow==12.2.0
+filelock==3.29.0
+fsspec==2024.2.0
+pandas
+gdown
+datasets==2.18.0
+huggingface_hub==0.25.2
+easydict==1.13
